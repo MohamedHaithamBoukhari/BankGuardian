@@ -1,0 +1,23 @@
+
+    void login(void);
+        void user_login(void);
+            void se_connecter(void);
+                void cnx_menu(void);
+                    void account_info(void);
+                    void effectuer_opperation(void);
+                        void tirer(void);
+                        void deposer(void);
+                        void effectuer_virement(void);
+                        void credit(void);
+                            void faire_credit(void);
+                            void info_credit(void);
+                    void modifier_informations(void);
+                    void supprimer_compte(void);
+            void creer_compte(void);
+        void manager_login(void);
+            void se_connecter_manager(void);
+                void cnx_menu_manager(void);
+                    void pointer(void);
+                    void display_users(void);
+                    void display_clients_credit(void);
+                    void display_archive(void);
